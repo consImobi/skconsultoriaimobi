@@ -1,0 +1,134 @@
+
+body{
+display: flex;
+font-family: 'Robota', sans-serif;
+justify-content: space-between;
+padding:25px;
+margin-left: 180px;
+}
+/* estilos do header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100vh;
+
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 15px;
+
+}
+h1{margin-bottom: 15px;
+font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  margin-bottom: 40px;};
+
+.grid{
+display:grid;
+grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+margin: 20px;
+
+}
+.back-to-top {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 10px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+padding:5px;
+  border: 15px;
+  border-radius: 50%;
+  transition: background-color 0.4s ease-in-out;
+width: 40px;
+text-align: : center;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.4s ease;
+margin: 25px;
+
+}
+.card img {
+  position: relative;
+  border-radius: 2%;
+  filter: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* apply the white gradient */
+  aspect-ratio: 1.618; /* set the aspect ratio to the golden ratio */
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+margin:15px;
+  
+}
+
+.email{font-size: 11px;
+margin-top: 40px;}
+.home {
+  margin: 65px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-top: 170px;
+  margin-bottom: 190px;
+  max-width: 100%;
+  
+
+}
+.home h2{font-size: 35px;
+margin-bottom: 60px}
+ .imoveisTitle{
+  font-size: 35px;
+  margin: 20px;
+ }
+
+/* estilos da scrollbar para Chrome e Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* estilos da scrollbar para Firefox */
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #888;
+}

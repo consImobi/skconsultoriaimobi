@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Imóveis à venda</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<script>
+var backToTopButton = document.querySelector(".back-to-top");
+
+window.addEventListener("scroll", function() {
+  if (window.pageYOffset > 300) {
+    backToTopButton.classList.add("show");
+  } else {
+    backToTopButton.classList.remove("show");
+  }
+});
+
+backToTopButton.addEventListener("click", function() {
+  window.scrollTo(0, 0);
+});
+
+</script>
+    <header>
+        <h1>SK </h1>
+        <h2>Consultoria Imobiliária</h2>
+        <h3>Imóveis à venda</h3>
+
+ <nav class="menuHeader">
+        <ul>
+            <li><a href="#">Todos</a></li>
+            <li><a href="#">Terrenos</a></li>
+            <li><a href="#">Apartamentos</a></li>
+            <li><a href="#">Casas</a></li>
+        </ul>
+    </nav>
+<p class="email">Contato: skconsultoriaimob@gmail.com</p>
+    </header>
+
+    <a href="#" class="back-to-top">Voltar ao Topo</a>
+
+   
+
+
+    <main class="grid">
+    	<div class="home">
+    		<h2>
+    			Bem vindo(a) à SK Associados Consultoria
+    		</h2>
+    		<p>
+    			Estamos trabalhando para ofecer qualidade em nosso catálogo de imóveis e em nosso atendimento. Estamos à total disposição, qualquer dúvida entre em contato pelos nossos canais de comunicação. 
+    		</p>
+
+
+    	</div>
+        <h2 class="imoveisTitle">Imóveis disponíveis:</h2>
+
+<!-- Card 01 - ref:0001 -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem do Imóvel">
+            <div class="card-content">
+                <h2>Terreno na Praia de Iracema</h2>
+                <p class="category">Terreno</p>
+                <p class="description">Terreno amplo com 800m² na Praia de Iracema. Ótima localização e perfeito para construir.</p>
+                <p class="utility">Metragem: 800m²</p>
+            </div>
+            <p class="price">R$950.000,00</p>
+        </div>
+<!-- Card 02 - ref:0002 -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="card-content">
+                <h2>Apartamento no Cabral</h2>
+                <p class="category">Apartamento</p>
+                <p class="description">Apartamento amplo com 3 quartos, sendo 1 suíte, sala de estar e jantar, cozinha e área de serviço. Localizado no bairro Cabral, próximo à avenida ZZZ.</p>
+                <p class="utility">Metragem: 100m²</p>
+            </div>
+            <p class="price">R$ 500.000,00</p>
+        </div>
+<!-- Card 03 - ref:0003 -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="card-content">
+                <h2>Casa em Messejana</h2>
+                <p class="category">Casa</p>
+                <p class="description">Casa ampla com 4 quartos, sendo 2 suítes, sala de estar e jantar, cozinha, área de serviço, jardim e garagem para 2 carros. Localizada no bairro Messejana, próximo à BR-116.</p>
+                <p class="utility">Metragem: 250m²</p>
+            </div>
+            <p class="price">R$ 1.200.000,00</p>
+        </div>
+<!-- Card 04 - ref:0004 -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="card-content">
+                <h2>Casa em Bairro Alto</h2>
+                <p class="category">Casa</p>
+                <p class="description">Casa ampla com 4 quartos, sendo 2 suítes, sala de estar e jantar, cozinha, área de serviço, jardim e garagem para 2 carros. Localizada no bairro Alto.</p>
+                <p class="utility">Metragem: 250m²</p>
+            </div>
+            <p class="price">R$ 900.000,00</p>
+        </div>
+<!-- Card 05 - ref:0005 -->
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="card-content">
+                <h2>Casa em Messejana</h2>
+                <p class="category">Casa</p>
+                <p class="description">Casa ampla com 4 quartos, sendo 2 suítes, sala de estar e jantar, cozinha, área de serviço, jardim e garagem para 2 carros. Localizada no bairro Messejana, próximo à BR-116.</p>
+                <p class="utility">Metragem: 250m²</p>
+            </div>
+            <p class="price">R$ 900.000,00</p>
+        </div>
+
+    </main>
+
+
+    
+</body>
+
+</html>
